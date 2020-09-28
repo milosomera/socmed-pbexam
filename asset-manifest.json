@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/socmed-pbexam/static/css/main.8f4e51f2.chunk.css",
+    "main.js": "/socmed-pbexam/static/js/main.e2fcb429.chunk.js",
+    "main.js.map": "/socmed-pbexam/static/js/main.e2fcb429.chunk.js.map",
+    "runtime-main.js": "/socmed-pbexam/static/js/runtime-main.4236d2cc.js",
+    "runtime-main.js.map": "/socmed-pbexam/static/js/runtime-main.4236d2cc.js.map",
+    "static/js/2.52b9ef13.chunk.js": "/socmed-pbexam/static/js/2.52b9ef13.chunk.js",
+    "static/js/2.52b9ef13.chunk.js.map": "/socmed-pbexam/static/js/2.52b9ef13.chunk.js.map",
+    "index.html": "/socmed-pbexam/index.html",
+    "precache-manifest.f49426300f5920fa30d2cf1ae68722ff.js": "/socmed-pbexam/precache-manifest.f49426300f5920fa30d2cf1ae68722ff.js",
+    "service-worker.js": "/socmed-pbexam/service-worker.js",
+    "static/css/main.8f4e51f2.chunk.css.map": "/socmed-pbexam/static/css/main.8f4e51f2.chunk.css.map",
+    "static/js/2.52b9ef13.chunk.js.LICENSE.txt": "/socmed-pbexam/static/js/2.52b9ef13.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4236d2cc.js",
+    "static/js/2.52b9ef13.chunk.js",
+    "static/css/main.8f4e51f2.chunk.css",
+    "static/js/main.e2fcb429.chunk.js"
+  ]
+}
