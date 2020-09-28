@@ -64,7 +64,7 @@ class Registration extends React.Component {
             && (this.state.password !== "") 
             && (this.state.password === this.state.confirmPassword)
         ) {
-            axios.post("https://socmed-pbexam.herokuapp.com/users/users/register", {
+            axios.post("https://socmed-pbexam.herokuapp.com/users/register", {
                 username: this.state.username,
                 email: this.state.email,
                 password: this.state.password
