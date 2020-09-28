@@ -1,38 +1,145 @@
-.App {
+* {
+  box-sizing: border-box;
+}
+
+/* Homepage */
+#home, 
+#registration, 
+#all-post, 
+#post-detail, 
+#create-post {
+  margin-top: 9rem;
+  margin-bottom: 3rem;
+}
+
+#home h1 {
+  color: green;
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+#home .text {
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+#home .sign-up, 
+#registration .sign-in {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#home .sign-up span, 
+#registration .sign-in span {
+  color: green;
+  text-shadow: 1px 1px 2px #f5f5f5;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#home-form {
+  padding: 2em;
+  border-radius: 8px;
+  box-shadow: 1px 1px 2px 2px #898989;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#home a:hover, #registration a:hover {
+  text-decoration: none;
+}
+
+.error-msg {
+  color: red;
+}
+
+/* Registration */
+.reg-button {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Navbar */
+#navbar .nav-item,
+#sign-out a {
+  color: #c4c4c4;
+  padding: .5rem;
+}
+
+#navbar .nav-item:hover,
+#sign-out a:hover {
+  text-decoration: none;
+  color: #C9E9D0;
+}
+
+/* Posts */
+#all-post .container, 
+#post-detail .container, 
+#create-post .container {
+  border: 8px double #d4d4d4;
+  border-radius: 5px;
+  padding: 1em;
+}
+
+#posts-container, 
+#post-detail-container, 
+#create-post-container {
+  margin: 0 auto;
+}
+
+#post {
+  border: 1px solid #575757;
+}
+
+#post-body {
+  padding: 15px;
+  background-color: #e4e4e4;
+}
+
+#post-detail .row img {
+  margin: 0 auto;
+}
+
+.post-body-detail {
+  padding: 1.5rem;
+  background-color: #e4e4e4;
+}
+
+#button-div {
+  text-align: right;
+  display: block;
+  margin-right: .5rem;
+}
+
+#submit-post {
+  margin: 0 auto;
+}
+
+#submit-post a, 
+#comment-button a {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#submit-post a:hover, 
+#comment-button a {
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#post-detail-link {
+  margin-bottom: .5rem;
+}
+
+#post-detail-link span {
+  color: #218838;
+  margin: 0 1rem;
+}
+
+/* Comments */
+#comment-header {
+  margin-left: 1.5rem;
+}
+
+.comment-body {
+  margin-left: 7rem;
+  padding-right: 1.5rem;
+}
+
+#comment-button {
+  margin-top: .3rem;
 }

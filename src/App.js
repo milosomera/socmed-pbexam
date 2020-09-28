@@ -1,24 +1,66 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useContext } from 'react';
 import './App.css';
+import MyContext from './MyContext';
+import { Route } from "react-router-dom";
+import NavbarBS from "./Navigation/NavbarBS";
+import Home from "./Homepage/Home";
+import Registration from "./Registration/Registration";
+import Posts from "./Posts/Posts";
+import PostDetail from "./Posts/PostDetail";
+import CreatePost from "./Posts/CreatePost";
 
-function App() {
+const App = () => {
+  const {
+    isLoggedin,
+    user,
+    userCredential,
+    logout,
+    posts,
+    addPost
+  } = useContext(MyContext);
+  const showPost = posts.map(post => {
+    return(
+      <Route path={"/posts/" + post._id} key={post._id}>
+        <PostDetail post={post}/>
+      </Route>
+    )
+  })
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {
+        isLoggedin
+        ?
+        <div>
+          <NavbarBS
+            logout={logout} 
+            user={user}
+          />
+          <Route path="/" exact>
+            <Posts/>
+          </Route>
+          {showPost}
+          <Route path="/create-post">
+            <CreatePost
+              addPost={addPost} 
+              user={user}
+            />
+          </Route>
+        </div>
+        :
+        <div>
+          <Route path="/" exact>
+            <Home
+              user={user} 
+              userCredential={userCredential}
+            />
+          </Route>
+          <Route path="/registration">
+            <Registration
+              userCredential={userCredential}
+            />
+          </Route>
+        </div>
+      }
     </div>
   );
 }
