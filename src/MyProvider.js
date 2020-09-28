@@ -5,7 +5,7 @@ import axios from "axios";
 class MyProvider extends React.Component {
 
     userCredential = (email, password) => {
-        axios.post("http://localhost:8080/users/login", {
+        axios.post("https://socmed-pbexam.herokuapp.com/login", {
             email: email,
             password: password
         })
@@ -30,7 +30,7 @@ class MyProvider extends React.Component {
     }
 
     addPost = (post) => {
-        axios.post("http://localhost:8080/posts", {
+        axios.post("https://socmed-pbexam.herokuapp.com/posts", {
             post: post
         })
         .then(res => {
@@ -52,11 +52,11 @@ class MyProvider extends React.Component {
         this.setState({
             posts: allPosts
         })
-        axios.delete("http://localhost:8080/posts/" + e.target.id)
+        axios.delete("https://socmed-pbexam.herokuapp.com/posts/" + e.target.id)
     }
 
     addComment = (comment, postId) => {
-        axios.post("http://localhost:8080/comments", {
+        axios.post("https://socmed-pbexam.herokuapp.com/comments", {
             comment: comment
         })
         .then(() => {
@@ -85,7 +85,7 @@ class MyProvider extends React.Component {
     }
 
     componentDidMount() {
-        axios("http://localhost:8080/posts")
+        axios("https://socmed-pbexam.herokuapp.com/posts")
         .then(res => {
             let posts = res.data;
             this.setState({
