@@ -5,7 +5,7 @@ import axios from "axios";
 class MyProvider extends React.Component {
 
     userCredential = (email, password) => {
-        axios.post("https://socmed-pbexam.herokuapp.com/login", {
+        axios.post("https://socmed-pbexam.herokuapp.com/users/login", {
             email: email,
             password: password
         })
