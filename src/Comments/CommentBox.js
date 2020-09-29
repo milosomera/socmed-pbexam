@@ -41,7 +41,7 @@ class CommentBox extends React.Component {
                                 size="sm" 
                                 onClick={this.addCommentHandler}
                             >
-                                <Link to={"/posts/" + this.props.post._id}>Comment</Link>
+                                <Link to={"/socmed-pbexam/posts/" + this.props.post._id}>Comment</Link>
                             </Button>
                         </Col>
                     </Row>

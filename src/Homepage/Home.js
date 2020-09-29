@@ -85,7 +85,7 @@ class Home extends React.Component {
                                             Log In
                                         </Button>
                                         <hr/>
-                                        <Link to="/registration">
+                                        <Link to="/socmed-pbexam/registration">
                                             <Button variant="info" block>Sign Up </Button>
                                         </Link>
                                         <p className="sign-up">Not yet registered? Click <span>"Sign Up"</span>.</p>

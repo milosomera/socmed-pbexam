@@ -14,7 +14,7 @@ class NavbarBS extends React.Component {
                             <Link to="/socmed-pbexam" className="nav-item">
                                 View Posts
                             </Link>
-                            <Link to="/create-post" className="nav-item">
+                            <Link to="/socmed-pbexam/create-post" className="nav-item">
                                 Create Post
                             </Link>
                         </Nav>
