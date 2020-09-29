@@ -48,7 +48,7 @@ const App = () => {
         </div>
         :
         <div>
-          <Route path="/" exact>
+          <Route path="/socmed-pbexam" exact>
             <Home
               user={user} 
               userCredential={userCredential}
