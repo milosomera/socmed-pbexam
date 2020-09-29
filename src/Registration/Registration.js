@@ -142,7 +142,7 @@ class Registration extends React.Component {
                                     </Col>
                                 </Row>
                             </FormGroup>
-                            <Link to="/">
+                            <Link to="/socmed-pbexam">
                                 <Button 
                                     className="reg-button" 
                                     variant="success" 
@@ -153,7 +153,7 @@ class Registration extends React.Component {
                                 </Button>
                             </Link>
                             <hr/>
-                            <Link to="/">
+                            <Link to="/socmed-pbexam">
                                 <Button 
                                     className="reg-button" 
                                     variant="info" 

@@ -11,7 +11,7 @@ class NavbarBS extends React.Component {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto">
-                            <Link to="/" className="nav-item">
+                            <Link to="/socmed-pbexam" className="nav-item">
                                 View Posts
                             </Link>
                             <Link to="/create-post" className="nav-item">
@@ -19,7 +19,7 @@ class NavbarBS extends React.Component {
                             </Link>
                         </Nav>
                         <Nav id="sign-out" className="ml-auto">
-                            <Link to="/" onClick={this.props.logout}>
+                            <Link to="/socmed-pbexam" onClick={this.props.logout}>
                                 Sign Out
                             </Link>
                         </Nav>

@@ -35,7 +35,7 @@ const App = () => {
             logout={logout} 
             user={user}
           />
-          <Route path="/" exact>
+          <Route path="/socmed-pbexam" exact>
             <Posts/>
           </Route>
           {showPost}
