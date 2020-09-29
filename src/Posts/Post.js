@@ -13,7 +13,7 @@ const Post = (props) => {
     return(
         <div id="post">
             <Row>
-                <Col md={4}>
+                <Col md={4} id="image-container">
                     <Image 
                         src={props.post.image} 
                         alt="Image goes here" 

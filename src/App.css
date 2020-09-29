@@ -87,6 +87,10 @@
   border: 1px solid #575757;
 }
 
+#post #image-container {
+  padding-right: 0;
+}
+
 #post-body {
   padding: 15px;
   background-color: #e4e4e4;
