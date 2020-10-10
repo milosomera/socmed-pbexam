@@ -147,3 +147,7 @@
 #comment-button {
   margin-top: .3rem;
 }
+
+#comment-row {
+  display: block;
+}

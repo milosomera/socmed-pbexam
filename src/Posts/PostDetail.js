@@ -33,7 +33,7 @@ const PostDetail = (props) => {
                         </Row> :
                         ""
                     }
-                    <Row>
+                    <Row id="comment-row">
                         {postComments}
                     </Row>
                 </Container>
