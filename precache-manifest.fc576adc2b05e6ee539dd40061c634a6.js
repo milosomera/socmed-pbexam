@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1c0ff9f5e30531c713e30acd89a9a056",
+    "revision": "6db4a0158614b6ba1ce2309beee5503a",
     "url": "/socmed-pbexam/index.html"
   },
   {
