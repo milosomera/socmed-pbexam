@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/socmed-pbexam/precache-manifest.e49828d117770a3df9204a0080daf8f9.js"
+  "/socmed-pbexam/precache-manifest.b8182de3359a00367e0a6f8d85e27b22.js"
 );
 
 self.addEventListener('message', (event) => {
