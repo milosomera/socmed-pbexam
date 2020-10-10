@@ -142,16 +142,30 @@ class Registration extends React.Component {
                                     </Col>
                                 </Row>
                             </FormGroup>
-                            <Link to="/socmed-pbexam">
-                                <Button 
-                                    className="reg-button" 
-                                    variant="success" 
-                                    onClick={this.register}
-                                    block
-                                >
-                                    Register
-                                </Button>
-                            </Link>
+                            {
+                                this.state.username !== "" 
+                                && this.state.email !== "" 
+                                && this.state.password !== ""
+                                && this.state.confirmPassword !== "" 
+                                ?   <Link to="/socmed-pbexam">
+                                        <Button 
+                                            className="reg-button" 
+                                            variant="success" 
+                                            onClick={this.register}
+                                            block
+                                        >
+                                            Register
+                                        </Button>
+                                    </Link> 
+                                :   <Button 
+                                        className="reg-button" 
+                                        variant="success" 
+                                        onClick={this.register}
+                                        block
+                                    >
+                                        Register
+                                    </Button>
+                            }
                             <hr/>
                             <Link to="/socmed-pbexam">
                                 <Button 

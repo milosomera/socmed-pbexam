@@ -17,7 +17,11 @@ class CommentBox extends React.Component {
             user: this.props.user.username,
             post: this.props.post._id
         }
-        this.props.addComment(newComment, this.props.post._id);
+        if(this.state.comment === "") {
+            alert("This field can't be blank");
+        } else {
+            this.props.addComment(newComment, this.props.post._id);
+        }
     }
     render() {
         return(
@@ -41,7 +45,12 @@ class CommentBox extends React.Component {
                                 size="sm" 
                                 onClick={this.addCommentHandler}
                             >
-                                <Link to={"/socmed-pbexam/posts/" + this.props.post._id}>Comment</Link>
+                                {
+                                    this.state.comment !== "" 
+                                    ? <Link to={"/socmed-pbexam/posts/" + this.props.post._id}>Comment</Link>
+                                    : "Comment"
+                                }
+                                
                             </Button>
                         </Col>
                     </Row>
