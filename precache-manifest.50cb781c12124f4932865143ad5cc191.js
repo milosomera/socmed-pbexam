@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6db4a0158614b6ba1ce2309beee5503a",
+    "revision": "1f4c0bf94d5ccd4c5e0cb7dc9d0dd97c",
     "url": "/socmed-pbexam/index.html"
   },
   {
-    "revision": "09b3b6adce2a454669ef",
+    "revision": "025e23d5e4950b23c350",
     "url": "/socmed-pbexam/static/css/main.f11c2a7f.chunk.css"
   },
   {
-    "revision": "5329e8fbead46e0235c7",
-    "url": "/socmed-pbexam/static/js/2.52b9ef13.chunk.js"
+    "revision": "41160d18a47f3da40b80",
+    "url": "/socmed-pbexam/static/js/2.755042c5.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/socmed-pbexam/static/js/2.52b9ef13.chunk.js.LICENSE.txt"
+    "url": "/socmed-pbexam/static/js/2.755042c5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "09b3b6adce2a454669ef",
-    "url": "/socmed-pbexam/static/js/main.0a65a22a.chunk.js"
+    "revision": "025e23d5e4950b23c350",
+    "url": "/socmed-pbexam/static/js/main.4e8fa34d.chunk.js"
   },
   {
     "revision": "8e8eb359c86087e54339",
