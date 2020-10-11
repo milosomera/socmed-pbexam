@@ -3,15 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import MyProvider from './MyProvider';
 
 ReactDOM.render(
   <React.StrictMode>
     <MyProvider>
-      <BrowserRouter>
+      <HashRouter>
         <App />
-      </BrowserRouter>
+      </HashRouter>
     </MyProvider>
   </React.StrictMode>,
   document.getElementById('root')
