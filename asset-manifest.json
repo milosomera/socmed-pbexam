@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/socmed-pbexam/static/css/main.5a9ed0c8.chunk.css",
+    "main.css": "/socmed-pbexam/static/css/main.c99392a3.chunk.css",
     "main.js": "/socmed-pbexam/static/js/main.81ab0137.chunk.js",
     "main.js.map": "/socmed-pbexam/static/js/main.81ab0137.chunk.js.map",
     "runtime-main.js": "/socmed-pbexam/static/js/runtime-main.4236d2cc.js",
@@ -8,15 +8,15 @@
     "static/js/2.755042c5.chunk.js": "/socmed-pbexam/static/js/2.755042c5.chunk.js",
     "static/js/2.755042c5.chunk.js.map": "/socmed-pbexam/static/js/2.755042c5.chunk.js.map",
     "index.html": "/socmed-pbexam/index.html",
-    "precache-manifest.ff2ab601612d585568c2b3fed500a508.js": "/socmed-pbexam/precache-manifest.ff2ab601612d585568c2b3fed500a508.js",
+    "precache-manifest.9ce0089b0afa05232d0e506a24d2a314.js": "/socmed-pbexam/precache-manifest.9ce0089b0afa05232d0e506a24d2a314.js",
     "service-worker.js": "/socmed-pbexam/service-worker.js",
-    "static/css/main.5a9ed0c8.chunk.css.map": "/socmed-pbexam/static/css/main.5a9ed0c8.chunk.css.map",
+    "static/css/main.c99392a3.chunk.css.map": "/socmed-pbexam/static/css/main.c99392a3.chunk.css.map",
     "static/js/2.755042c5.chunk.js.LICENSE.txt": "/socmed-pbexam/static/js/2.755042c5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4236d2cc.js",
     "static/js/2.755042c5.chunk.js",
-    "static/css/main.5a9ed0c8.chunk.css",
+    "static/css/main.c99392a3.chunk.css",
     "static/js/main.81ab0137.chunk.js"
   ]
 }

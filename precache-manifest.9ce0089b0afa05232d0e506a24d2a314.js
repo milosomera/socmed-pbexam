@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f8984c8e765a0c09f306e2896416ad14",
+    "revision": "d77f6816e34d6ef71db39f84c32afe27",
     "url": "/socmed-pbexam/index.html"
   },
   {
-    "revision": "cd06cf8f7810b4ce5f45",
-    "url": "/socmed-pbexam/static/css/main.5a9ed0c8.chunk.css"
+    "revision": "15bd452d272c9e92e48f",
+    "url": "/socmed-pbexam/static/css/main.c99392a3.chunk.css"
   },
   {
     "revision": "41160d18a47f3da40b80",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/socmed-pbexam/static/js/2.755042c5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cd06cf8f7810b4ce5f45",
+    "revision": "15bd452d272c9e92e48f",
     "url": "/socmed-pbexam/static/js/main.81ab0137.chunk.js"
   },
   {
