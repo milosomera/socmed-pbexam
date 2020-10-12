@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/socmed-pbexam/static/css/main.f11c2a7f.chunk.css",
-    "main.js": "/socmed-pbexam/static/js/main.4e8fa34d.chunk.js",
-    "main.js.map": "/socmed-pbexam/static/js/main.4e8fa34d.chunk.js.map",
+    "main.js": "/socmed-pbexam/static/js/main.bea1a9fd.chunk.js",
+    "main.js.map": "/socmed-pbexam/static/js/main.bea1a9fd.chunk.js.map",
     "runtime-main.js": "/socmed-pbexam/static/js/runtime-main.4236d2cc.js",
     "runtime-main.js.map": "/socmed-pbexam/static/js/runtime-main.4236d2cc.js.map",
     "static/js/2.755042c5.chunk.js": "/socmed-pbexam/static/js/2.755042c5.chunk.js",
     "static/js/2.755042c5.chunk.js.map": "/socmed-pbexam/static/js/2.755042c5.chunk.js.map",
     "index.html": "/socmed-pbexam/index.html",
-    "precache-manifest.50cb781c12124f4932865143ad5cc191.js": "/socmed-pbexam/precache-manifest.50cb781c12124f4932865143ad5cc191.js",
+    "precache-manifest.7c7a6a658591dae6f1a16e9fa612d066.js": "/socmed-pbexam/precache-manifest.7c7a6a658591dae6f1a16e9fa612d066.js",
     "service-worker.js": "/socmed-pbexam/service-worker.js",
     "static/css/main.f11c2a7f.chunk.css.map": "/socmed-pbexam/static/css/main.f11c2a7f.chunk.css.map",
     "static/js/2.755042c5.chunk.js.LICENSE.txt": "/socmed-pbexam/static/js/2.755042c5.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.4236d2cc.js",
     "static/js/2.755042c5.chunk.js",
     "static/css/main.f11c2a7f.chunk.css",
-    "static/js/main.4e8fa34d.chunk.js"
+    "static/js/main.bea1a9fd.chunk.js"
   ]
 }
