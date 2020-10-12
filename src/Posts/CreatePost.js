@@ -52,7 +52,7 @@ class CreatePost extends React.Component {
                                     variant="success" 
                                     onClick={this.addPostHandler}
                                 >
-                                    <Link to="/socmed-pbexam">Post</Link>
+                                    <Link to="/">Post</Link>
                                 </Button>
                             </Col>
                         </Form>

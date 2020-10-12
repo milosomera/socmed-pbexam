@@ -147,7 +147,7 @@ class Registration extends React.Component {
                                 && this.state.email !== "" 
                                 && this.state.password !== ""
                                 && this.state.confirmPassword !== "" 
-                                ?   <Link to="/socmed-pbexam">
+                                ?   <Link to="/">
                                         <Button 
                                             className="reg-button" 
                                             variant="success" 
@@ -167,7 +167,7 @@ class Registration extends React.Component {
                                     </Button>
                             }
                             <hr/>
-                            <Link to="/socmed-pbexam">
+                            <Link to="/">
                                 <Button 
                                     className="reg-button" 
                                     variant="info" 

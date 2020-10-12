@@ -42,7 +42,7 @@ const Post = (props) => {
                     <div id="post-detail-link">
                         <Row>
                             <Col>
-                                <Link to={"/socmed-pbexam/posts/" + props.post._id}>
+                                <Link to={"/posts/" + props.post._id}>
                                     read more
                                 </Link>
                             </Col>

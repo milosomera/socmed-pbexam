@@ -20,7 +20,7 @@ const App = () => {
   } = useContext(MyContext);
   const showPost = posts.map(post => {
     return(
-      <Route path={"/socmed-pbexam/posts/" + post._id} key={post._id}>
+      <Route path={"/posts/" + post._id} key={post._id}>
         <PostDetail post={post}/>
       </Route>
     )
@@ -35,11 +35,11 @@ const App = () => {
             logout={logout} 
             user={user}
           />
-          <Route path="/socmed-pbexam" exact>
+          <Route path="/" exact>
             <Posts/>
           </Route>
           {showPost}
-          <Route path="/socmed-pbexam/create-post">
+          <Route path="/create-post">
             <CreatePost
               addPost={addPost} 
               user={user}
@@ -48,13 +48,13 @@ const App = () => {
         </div>
         :
         <div>
-          <Route path="/socmed-pbexam" exact>
+          <Route path="/" exact>
             <Home
               user={user} 
               userCredential={userCredential}
             />
           </Route>
-          <Route path="/socmed-pbexam/registration">
+          <Route path="/registration">
             <Registration
               userCredential={userCredential}
             />

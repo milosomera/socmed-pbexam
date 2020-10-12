@@ -47,7 +47,7 @@ class CommentBox extends React.Component {
                             >
                                 {
                                     this.state.comment !== "" 
-                                    ? <Link to={"/socmed-pbexam/posts/" + this.props.post._id}>Comment</Link>
+                                    ? <Link to={"/posts/" + this.props.post._id}>Comment</Link>
                                     : "Comment"
                                 }
                                 
