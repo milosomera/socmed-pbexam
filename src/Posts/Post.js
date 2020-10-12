@@ -46,9 +46,18 @@ const Post = (props) => {
                                     read more
                                 </Link>
                             </Col>
-                            <Col>
-                                <span>Comments: ({props.post.comments.length})</span>
-                                <span><HandThumbsUp/></span>
+                            <Col id="comment-link">
+                                <Link to={"/posts/" + props.post._id}>
+                                    <span>Comments: ({props.post.comments.length})</span>
+                                </Link>
+                            </Col>
+                            <Col id="like-btn">
+                                <Button
+                                    variant="light"
+                                    size="sm"
+                                >
+                                    <span><HandThumbsUp/></span>
+                                </Button>
                             </Col>
                         </Row>
                     </div>

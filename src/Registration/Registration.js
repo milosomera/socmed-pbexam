@@ -146,7 +146,7 @@ class Registration extends React.Component {
                                 this.state.username !== "" 
                                 && this.state.email !== "" 
                                 && this.state.password !== ""
-                                && this.state.confirmPassword !== "" 
+                                && this.state.confirmPassword === this.state.password  
                                 ?   <Link to="/">
                                         <Button 
                                             className="reg-button" 

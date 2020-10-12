@@ -131,7 +131,15 @@
 
 #post-detail-link span {
   color: #218838;
-  margin: 0 1rem;
+}
+
+#like-btn {
+  text-align: center;
+}
+
+#comment-link a:hover {
+  text-decoration: none;
+  text-shadow: 2px 2px 4px #898989;
 }
 
 /* Comments */
