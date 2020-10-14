@@ -73,6 +73,26 @@ class MyProvider extends React.Component {
         })
     }
 
+    likePost = (user, postId) => {
+        axios.post("https://socmed-pbexam.herokuapp.com/likes", {
+           user: user,
+           post: postId
+        })
+        .then(() => {
+            let likedPost = [...this.state.posts];
+            likedPost.map(post => {
+                if(post._id === postId) {
+                    post.thumbsUp.push(user);
+                }
+                return post;
+            })
+            this.setState({
+                posts: likedPost
+            })
+            console.log(this.state.posts);
+        })
+    }
+
     state = {
         isLoggedin: localStorage.getItem("appUser") ? true : false,
         user: localStorage.getItem("appUser") ? JSON.parse(localStorage.getItem("appUser")) : {},
@@ -81,7 +101,8 @@ class MyProvider extends React.Component {
         logout: this.logout,
         addPost: this.addPost,
         deletePost: this.deletePost,
-        addComment: this.addComment
+        addComment: this.addComment,
+        likePost: this.likePost
     }
 
     componentDidMount() {

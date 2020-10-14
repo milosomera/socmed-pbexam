@@ -8,8 +8,13 @@ import { HandThumbsUp } from "react-bootstrap-icons";
 const Post = (props) => {
     const {
         addComment, 
-        user
+        user,
+        likePost
     } = useContext(MyContext);
+    const likePostHandler = () => {
+        console.log(JSON.parse(localStorage.getItem("appUser"))._id);
+        likePost(JSON.parse(localStorage.getItem("appUser"))._id, props.post._id);
+    }
     return(
         <div id="post">
             <Row>
@@ -55,9 +60,12 @@ const Post = (props) => {
                                 <Button
                                     variant="light"
                                     size="sm"
+                                    id={props.post._id}
+                                    onClick={likePostHandler}
                                 >
                                     <span><HandThumbsUp/></span>
                                 </Button>
+                                <span> {props.post.thumbsUp.length}</span>
                             </Col>
                         </Row>
                     </div>

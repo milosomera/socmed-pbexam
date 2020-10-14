@@ -50,7 +50,6 @@ class CommentBox extends React.Component {
                                     ? <Link to={"/posts/" + this.props.post._id}>Comment</Link>
                                     : "Comment"
                                 }
-                                
                             </Button>
                         </Col>
                     </Row>
