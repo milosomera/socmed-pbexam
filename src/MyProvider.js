@@ -73,23 +73,22 @@ class MyProvider extends React.Component {
         })
     }
 
-    likePost = (user, postId) => {
+    likePost = (userId, postId) => {
         axios.post("https://socmed-pbexam.herokuapp.com/likes", {
-           user: user,
+           user: userId,
            post: postId
         })
         .then(() => {
             let likedPost = [...this.state.posts];
             likedPost.map(post => {
                 if(post._id === postId) {
-                    post.thumbsUp.push(user);
+                    post.thumbsUp.push(userId);
                 }
                 return post;
             })
             this.setState({
                 posts: likedPost
             })
-            console.log(this.state.posts);
         })
     }
 
